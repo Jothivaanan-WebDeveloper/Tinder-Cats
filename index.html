@@ -25,17 +25,17 @@
     <!-- Nav Bar -->
    <div class="container-fluid">
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark nav-space">
       <a href="#" class="navbar-brand">Tinder Cats</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
-              <li class="nav-item d-flex gap-4">
+              <li class="nav-item d-flex gap-3 link-text">
                   <a href="" class="nav-link">Contact</a>
                   <a href="" class="nav-link">Pricing</a>
-                  <a href="" class="nav-link">Download</a>
+                  <a href="" class="nav-link ">Download</a>
               </li>
           </ul>
       </div>
@@ -44,13 +44,15 @@
 
     <div class="row">
 
-      <div class="col-lg-6">
-        <h1>Meet new and interesting cats nearby.</h1>
-        <button type="button" class="btn btn-outline-dark btn-lg m-2 mt-5"><i class="fab fa-apple"></i> </i>Download</button>
-        <button type="button" class="btn btn-outline-light btn-lg m-2 mt-5"><i class="fab fa-google-play"></i> Download</button>
+      <div class="col-lg-6 title-content">
+        <h1 class="title-heading">Meet new and interesting cats nearby.</h1>
+        <div class="">
+          <button type="button" class="btn btn-outline-light btn-md"><i class="fab fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-outline-dark btn-md float-right m-1"><i class="fab fa-apple"></i> </i>Download</button>
+        </div>
       </div>
-      <div class="col-lg-6">
-        <img class="title-dog" src="images/iphone6.png" alt="iphone-mockup">
+      <div class="col-lg-6 title-image">
+        <img class="title-cat" src="images/iphone6.png" alt="iphone-mockup">
       </div>
     </div>
    </div>
@@ -59,38 +61,24 @@
   </section>
 
 
-  <!-- Features -->
-
-  <!-- <section id="features">
-
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
-  </section> -->
   <section id="features">
 
     <div class="container">
          <div class="row">
            <div class="col-lg-4 text-center">
              <i class="fas fa-check-circle icon-style p-1"></i>
-             <h3>Easy to use.</h3>
-             <p>So easy to use, even your cat could do it.</p>
+             <h3 class="features-heading">Easy to use.</h3>
+             <p class="features-paragraph">So easy to use, even your cat could do it.</p>
            </div>
            <div class="col-lg-4 text-center">
              <i class="fas fa-bullseye icon-style p-1"></i>
-             <h3>Elite Clientele</h3>
-             <p>We have all the cats, the greatest cats.</p>
+             <h3 class="features-heading">Elite Clientele</h3>
+             <p class="features-paragraph">We have all the cats, the greatest cats.</p>
            </div>
            <div class="col-lg-4 text-center">
              <i class="fas fa-heart icon-style p-1"></i>
-             <h3>Guaranteed to work.</h3>
-             <p>Find the love of your cat's life or your money back.</p>
+             <h3 class="features-heading">Guaranteed to work.</h3>
+             <p class="features-paragraph">Find the love of your cat's life or your money back.</p>
            </div>
          </div>
     </div>
@@ -102,45 +90,33 @@
 
   <section id="testimonials" class="text-center">
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
      
       <div class="carousel-inner">
         
         <div class="carousel-item active">
-          <h2>I no longer have to stalk other cats for love. I've found the hottest Corgi on Tinder cats. Meow!</h2>
+          <h2 class="testimonial-text">I no longer have to stalk other cats for love. I've found the hottest Corgi on Tinder cats. Meow!</h2>
           <img src="images/cat-img.jpg" alt="cat-profile" class="testimonial-image">
-          <h6>Pebbles, London</h6>
+          <h6 class="carousel-name">Pebbles, London</h6>
         </div>
 
         <div class="carousel-item">
           <h2 class="testimonial-text">My mom died when I was young. Now she returned to me in a cat. I'm so happy to see her!</h2>
           <img  src="images/lady-img.jpg" alt="lady-profile" class="testimonial-image">
-          <h6>Phoebe Buffay, New york</h6>
+          <h6 class="carousel-name">Phoebe Buffay, New york</h6>
         </div>
       </div>
 
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <a class="carousel-btn carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <a class="carousel-btn carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="..." alt="First slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="..." alt="Second slide">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="..." alt="Third slide">
-        </div>
-      </div>
-    </div> -->
+  
   </section>
 
 
@@ -158,34 +134,64 @@
   <!-- Pricing -->
 
   <section id="pricing">
+    <div class="mb-5">
+      <h3 class="pricing-heading">A Plan for Every Cat's Needs</h3>
+      <em class="pricing-text">Simple and affordable price plans for your and your cat.</em>
+    </div>
+    
+    <div class="row">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
-
-
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+          <div class="col-lg-4 col-md-6 pricing-column">
+            <div class="card">
+              <div class="card-header">
+                      <h3>Japanese Bobtail</h3>
+              </div>
+                  <div class="card-body text-center">
+                    <h2>Free</h2>
+                    <p>5 Matches Per Day</p>
+                    <p>10 Messages Per Day</p>
+                    <p>Unlimited App Usage</p>
+                    <button type="button" class="btn btn-lg btn-outline-dark w-100">Sign Up for free</button>
+                  </div>
+                  
+            </div>
+          </div>
+                   
+          <div class="col-lg-4 col-md-6 pricing-column">
+            <div class="card">
+              <div class="card-header">
+                <h3>British Shorthair</h3>
+              </div>
+                    <div class="card-body text-center">
+                      <h2>$49 / mo</h2>
+                      <p>Unlimited Matches</p>
+                      <p>Unlimited Messages</p>
+                      <p>Unlimited App Usage</p>
+                      <button type="button" class="btn btn-lg btn-outline-dark w-100">Sign Up for free</button>
+                    </div>
+                                    
+            </div>
+          </div>
+          
+          
+    
+          <div class="col-lg-4 pricing-column">
+            <div class="card card-primary">
+              <div class="card-header">
+                      <h3>Birman</h3>
+                      </div>
+                  <div class="card-body text-center">
+                      <h2>$99 / mo</h2>
+                      <p>Pirority Listing</p>
+                      <p>Unlimited Matches</p>
+                      <p>Unlimited Messages</p>
+                      <button type="button" class="btn btn-lg btn-outline-dark w-100">Sign Up for free</button>  
+                  </div>
+            </div>
+          </div>
+        
+    </div>
+    
 
   </section>
 
@@ -194,18 +200,25 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-heading">Find the True Love of Your Cat's Life Today.</h3>
+    <button type="button" class="btn btn-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
+    <button type="button" class="float-right btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
 
   </section>
 
 
   <!-- Footer -->
 
-  <footer id="footer">
-
-    <p>© Copyright TinDog</p>
+  <footer id="footer" class="text-center">
+     
+    <div class="d-flex gap-3 justify-content-center icon">
+      <i class="fab fa-brands fa-twitter footer-icon"></i>
+      <i class="fab fa-brands fa-facebook-f footer-icon"></i>
+      <i class="fab fa-brands fa-instagram footer-icon"></i>
+      <i class="far fa-envelope footer-icon"></i>
+    </div>
+   
+    <p class="footer-para">© Copyright 2022 Tinder Cats</p>
 
   </footer>
 
