@@ -18,6 +18,7 @@ h1 {
     font-weight: bold;
     font-size: 3.5rem;
     line-height: 1.5;
+    padding-bottom: 5rem;
 }
 
 .navbar {
@@ -42,9 +43,11 @@ h1 {
 
 
 .title-cat {
-    width: 18%;
+    width: 18rem;
+    /* width: 18%; */
     transform: rotate(25deg);
     margin-left: 2rem;
+    margin-bottom: 2rem;
     position: absolute;
     left: 60%;
     z-index: 1;
@@ -73,6 +76,7 @@ h1 {
 .icon-style:hover {
     color: #ff4c68;
 }
+
 
 /* Testimonials Section */
 #testimonials {
@@ -151,8 +155,9 @@ h2 {
 
     .title-heading {
        font-size: 1rem !important;
+       padding-bottom: 1% !important;
     }
-
+    
     .features-heading {
        font-size: 1rem !important;
     }
@@ -187,7 +192,9 @@ h2 {
     }
     h1 {
         font-size: 40px !important;
+        /* padding:1rem !important; */
      }
+    
      .navbar-brand,.navbar-toggler {
         font-size: large;
     }
@@ -218,7 +225,7 @@ h2 {
       padding:10px 16px;
       font-size:18px;
     }
-   
+
   }
 
 
@@ -229,15 +236,16 @@ h2 {
     }
 
     .title-cat {
-        transform: rotate(0);
-        width: 20%;
+        /* transform: rotate(0); */
+        width: 10rem;
     }
     #title {
         text-align: center;
     }
     h1 {
-    margin-top: 20px;    
-    font-size: 2rem;
+        padding-bottom: 2rem !important;
+        margin-top: 20px;    
+        font-size: 2rem;
     }
     .cta-heading {
         font-size: 1.5rem;
